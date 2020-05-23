@@ -11,14 +11,14 @@ header is included in this repo.
 
 ## Building and running
 
-This has been tested with g++ 5.5.0 on Linux and Clang 9.0.0 on Mac OS. The included `Makefile` allows
+This has been tested with g++ 10.1.0 on Linux. The included `Makefile` allows
 you to compile and run the tests with
 
 ```shell
 make test
 ```
 
-To compile the sample application, use
+To build the sample application, use
 
 ```shell
 make greeter
@@ -35,3 +35,6 @@ To clean up (i.e. remove the test and application executables), use
 ```shell
 make clean
 ```
+
+You can also build, test and clean up inside a Docker container using the script `in-docker.sh`.
+Note that this will generate executables for Linux only!
