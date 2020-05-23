@@ -11,7 +11,7 @@ header is included in this repo.
 
 ## Building and running
 
-This has been tested with g++ 5.3.0 on Linux and Clang 9.0.0 on Mac OS. The included `Makefile` allows
+This has been tested with g++ 5.5.0 on Linux and Clang 9.0.0 on Mac OS. The included `Makefile` allows
 you to compile and run the tests with
 
 ```shell
