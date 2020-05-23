@@ -24,6 +24,12 @@ To compile the sample application, use
 make greeter
 ```
 
+to create an executable called `greeter`, which can be run with
+
+```shell
+./greeter
+```
+
 To clean up (i.e. remove the test and application executables), use
 
 ```shell
